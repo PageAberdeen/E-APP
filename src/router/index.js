@@ -1,12 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import index from '../pages/index.vue'
-import schoolDistrict from '../pages/schoolDistrict.vue'
-import trailing from '../pages/trailing.vue'
-import campus from '../pages/campus.vue'
-import districtEntry from '../pages/districtEntry.vue'
-import trailingEntry from '../pages/trailingEntry.vue'
-
+import SchoolAdmin from '../pages/SchoolAdmin.vue'
+import SchoolList from '../pages/SchoolList.vue'
+import instructions from '../pages/instructions.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -16,25 +13,17 @@ export default new Router({
       name: 'index',
       component: index
     },{
-      path: '/district',
-      name: 'district',
-      component: schoolDistrict
+      path: '/school',
+      name: 'school',
+      component: SchoolAdmin
     },{
-      path: '/trailing',
-      name: 'trailing',
-      component: trailing
+      path: '/student',
+      name: 'schoolList',
+      component: SchoolList
     },{
-      path: '/campus',
-      name: 'campus',
-      component: campus
-    },{
-      path: '/districtEntry',
-      name: 'districtEntry',
-      component: districtEntry
-    },{
-      path: '/trailingEntry',
-      name: 'trailingEntry',
-      component: trailingEntry
+      path: 'help',
+      name: 'instructions',
+      component: instructions
     }
   ]
 })
