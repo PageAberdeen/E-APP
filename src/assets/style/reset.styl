@@ -18,11 +18,30 @@ ul, li, p, h1, h2, h3, h4, h5, h6, dl, dt, dd {
   float right
 
 a,
-input[type="submit"],input[type="button"],input[type="date"],select
+input,
+select,
 button
   -webkit-tap-highlight-color rgba(0, 0, 0, 0)
   -webkit-appearance none
   outline none
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+ color: #fff;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+ color:#fff;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+ color:#fff;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+ color:#fff;
+}
+
 
 a
   display inline-block
@@ -33,10 +52,17 @@ a
 *
   box-sizing border-box
 
+.clearfix:before
+  content "."
+  display block
+  clear both
+  overflow hidden
+  height 0
+  visibility visible
 .row
   width 100%
   overflow hidden
-
+  
 .row:after
   content "."
   display block
