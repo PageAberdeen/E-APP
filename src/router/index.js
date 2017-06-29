@@ -4,6 +4,7 @@ import index from '../pages/index.vue'
 import SchoolAdmin from '../pages/SchoolAdmin.vue'
 import SchoolList from '../pages/SchoolList.vue'
 import instructions from '../pages/instructions.vue'
+import addSchoolMsg from '../pages/addSchoolMsg.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -24,6 +25,10 @@ export default new Router({
       path: 'help',
       name: 'instructions',
       component: instructions
+    },{
+      path: 'addSchoolMsg',
+      name: 'addSchoolMsg',
+      component: addSchoolMsg
     }
   ]
 })
