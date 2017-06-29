@@ -1,18 +1,18 @@
 input,
 .form-btn,
 .file-box,
+.link-btn,
 select {
   display: block;
   width: 100%;
-  height: 0.52rem;
+  height: 0.62rem;
   padding: 0.06rem 0.12rem;
   margin-bottom: 0.4rem;
   font-size: 0.28rem;
-  line-height: 0.28rem;
-  color: #555;
-  background-color: #fff;
+  line-height: 0.48rem;
+  color: #fff;
   background-image: none;
-  border: 0.01rem solid #ccc;
+  border: 1px solid #ccc;
   border-radius: 0.04rem;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
@@ -20,10 +20,11 @@ select {
   -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
-.form-btn {
+.btn {
   text-align: center;
-  line-height: 0.38rem;
+  line-height: 0.48rem;
   letter-spacing: 5px;
+  background-color: transparent;
 }
 input:focus {
   border-color: #66afe9;
@@ -62,4 +63,29 @@ input:focus {
   border-radius: 30px;
   background-color: #0b0;
   cursor: pointer;
+}
+.text-input {
+  padding-left: 0.6rem;
+  border: 0;
+  color: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #ddd;
+  background-color: transparent;
+}
+.icon-school {
+  background: url("../images/school.svg") no-repeat 0;
+  background-size: 0.38rem;
+}
+.icon-catti {
+  background: url("../images/catti.svg") no-repeat 0;
+  background-size: 0.38rem;
+}
+.icon-activate {
+  background: url("../images/activate.svg") no-repeat 0;
+  background-size: 0.38rem;
+}
+.icon-search {
+  background: url("../images/search.svg") no-repeat 0.2rem;
+  background-size: 0.38rem;
 }
