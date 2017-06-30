@@ -89,3 +89,7 @@ input:focus {
   background: url("../images/search.svg") no-repeat 0.2rem;
   background-size: 0.38rem;
 }
+.container {
+  padding: 0 1rem;
+  height: 100%;
+}
