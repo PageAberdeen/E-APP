@@ -22,11 +22,11 @@ export default new Router({
       name: 'schoolList',
       component: SchoolList
     },{
-      path: 'help',
+      path: '/help',
       name: 'instructions',
       component: instructions
     },{
-      path: 'addSchoolMsg',
+      path: '/addSchoolMsg',
       name: 'addSchoolMsg',
       component: addSchoolMsg
     }
