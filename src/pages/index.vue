@@ -2,9 +2,9 @@
   <div class="home">
     <h1 class="home-title">XXX预约报名平台</h1>
     <div class="home-link-box">
-      <a href="" class="home-link school-in">学校入口</a>
-      <a href="" class="home-link student-in">新生报名入口</a>
-      <a href="" class="home-link help-in">使用文档</a>
+      <a href="#/school" class="home-link school-in">学校入口</a>
+      <a href="#/student" class="home-link student-in">新生报名入口</a>
+      <a href="#/instructions" class="home-link help-in">使用文档</a>
     </div>
   </div>
 </template>
