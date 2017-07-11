@@ -1,12 +1,12 @@
 <template>
   <div class="addSchool container">
-    <h1 class="title">填写负责人信息</h1>
+    <h1 class="title">创建负责人</h1>
     <form action="" class="school-msg">
       <fileBox></fileBox>
-      <input type="text" class="text-input icon-catti" placeholder="设置管理员账户">
-      <input type="password" class="text-input icon-activate" placeholder="设置密码">
+      <input type="text" class="text-input icon-user" placeholder="设置管理员账户">
+      <input type="password" class="text-input icon-password" placeholder="设置密码">
     </form>
-    <a href="" class="btn link-btn">确认开通</a>
+    <a href="#/schoolLogin" class="btn link-btn">确认开通</a>
   </div>
 </template>
 
@@ -38,7 +38,7 @@
     margin: 0 0 .8rem 0;
   .title
     text-align center
-    height 2rem
+    height 1.6rem
     font-size .36rem
     line-height 2rem
 </style>

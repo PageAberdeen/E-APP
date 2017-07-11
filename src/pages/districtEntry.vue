@@ -1,6 +1,6 @@
 <template>
   <div class="districtEntry">
-    <h5 class="system-title">柳州市弯塘小学新生自助报名及预约系统</h5>
+    <h5 class="system-title">新生资料填写</h5>
     <form action="" class="districtEntry-form">
       <label for="">新生姓名：</label>
       <input type="text" placeholder="请输入您的姓名">
@@ -45,6 +45,7 @@
         <input type="file" id="file" class="file-btn">
       </p>
       <img class="preview-img" id="image" src="" alt="预览图片">
+      <a href="#studentMenu" class="btn link-btn mt40">提交</a>
     </form>
   </div>
 </template>
@@ -75,11 +76,14 @@
   .districtEntry
     font-size 0
     padding 0 .2rem .4rem .2rem
+    background url(../assets/images/login.jpg) no-repeat
+    background-size cover
   .sex-btn
     margin-bottom .4rem
     width 100%
-    height .52rem
+    height .62rem
     font-size 28px
+    background-color transparent
     & option
       font-size 14px
   .site-box
@@ -104,4 +108,6 @@
   .preview-img
     width 100%
     height 3.2rem
+  input[type=text]
+    background-color transparent
 </style>
