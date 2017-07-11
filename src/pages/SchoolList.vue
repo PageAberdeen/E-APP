@@ -4,24 +4,48 @@
       <input type="text" class="search icon-search" placeholder="请输入预约学校名称">
     </div>
     <div class="schoolList-main">
-      <a href="#/studentLogin">
-        <dl class="clearfix list-box">
-          <dt class="school-logo">
-            <img src="../assets/images/wtlogo.png" alt="">
-          </dt>
-          <dd class="schoolName">柳州市弯塘路小学</dd>
-          <dd class="schoolTitle">学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述           </dd>
-        </dl>
-      </a>
-      <a href="">
-        <dl class="clearfix list-box">
-          <dt class="school-logo">
-            <img src="../assets/images/wtlogo.png" alt="">
-          </dt>
-          <dd class="schoolName">柳州市弯塘路小学</dd>
-          <dd class="schoolTitle">学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述           </dd>
-        </dl>
-      </a>
+      <dl class="clearfix list-box">
+        <dt class="school-logo">
+          <img src="../assets/images/wtlogo.png" alt="">
+        </dt>
+        <dd class="schoolName">柳州市弯塘路小学</dd>
+        <dd class="schoolTitle">学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述           </dd>
+      </dl>
+      <dl class="clearfix list-box">
+        <dt class="school-logo">
+          <img src="../assets/images/wtlogo.png" alt="">
+        </dt>
+        <dd class="schoolName">柳州市弯塘路小学</dd>
+        <dd class="schoolTitle">学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述           </dd>
+      </dl>
+      <dl class="clearfix list-box">
+        <dt class="school-logo">
+          <img src="../assets/images/wtlogo.png" alt="">
+        </dt>
+        <dd class="schoolName">柳州市弯塘路小学</dd>
+        <dd class="schoolTitle">学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述           </dd>
+      </dl>
+      <dl class="clearfix list-box">
+        <dt class="school-logo">
+          <img src="../assets/images/wtlogo.png" alt="">
+        </dt>
+        <dd class="schoolName">柳州市弯塘路小学</dd>
+        <dd class="schoolTitle">学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述           </dd>
+      </dl>
+      <dl class="clearfix list-box">
+        <dt class="school-logo">
+          <img src="../assets/images/wtlogo.png" alt="">
+        </dt>
+        <dd class="schoolName">柳州市弯塘路小学</dd>
+        <dd class="schoolTitle">学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述           </dd>
+      </dl>
+      <dl class="clearfix list-box">
+        <dt class="school-logo">
+          <img src="../assets/images/wtlogo.png" alt="">
+        </dt>
+        <dd class="schoolName">柳州市弯塘路小学</dd>
+        <dd class="schoolTitle">学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述学校描述           </dd>
+      </dl>
     </div>
   </div>
 </template>
@@ -32,7 +56,6 @@
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
 .schoolList
-  height 100%
   padding .4rem
   background url(../assets/images/schoolList.jpg) no-repeat
   background-size cover
@@ -54,9 +77,9 @@
     background-color transparent
   .list-box
     overflow hidden
+    margin-bottom .3rem
     border-top 1px solid #ddd
     padding-top .2rem
-    color #fff
   .school-logo
     float left
     padding .1rem

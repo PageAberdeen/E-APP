@@ -35,7 +35,7 @@
       color #fff
       text-align center
       font-size .36rem
-      background-color #80f157
+      background-color #00bb00
       box-shadow -.02rem .02rem .2rem 0 #000;
     .student-in
       position absolute
@@ -43,12 +43,12 @@
       left 1.6rem
       z-index 3
       border-radius 50%
-      background-color #4ecdfe
+      background-color #00a0df
       box-shadow 0 0 0 .3rem #f3e94d
     .help-in
       position absolute
       top 3.2rem
       left 3.2rem
-      background-color #f46523
+      background-color #7d0000
       box-shadow .02rem .02rem .2rem 0 #000;
 </style>

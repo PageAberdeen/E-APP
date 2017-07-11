@@ -7,7 +7,7 @@
       <input type="text" class="text-input icon-activate" placeholder="请输入平台激活码">
     </form>
     <a href="#/addSchoolMsg" class="btn link-btn">申请开通</a>
-    <a href="#/schoolLogin" class="btn link-btn">登录学校管理后台</a>
+    <a href="" class="btn link-btn">登录学校管理后台</a>
   </div>
 </template>
 
@@ -23,7 +23,7 @@
     margin .8rem 0
   .title
     text-align center
-    height 1.6rem
+    height 2rem
     font-size .36rem
     line-height 2rem
 </style>
