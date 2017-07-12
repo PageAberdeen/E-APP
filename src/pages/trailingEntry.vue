@@ -1,7 +1,7 @@
 <template>
   <div class="trailingEntry">
     <h5 class="system-title">柳州市弯塘小学新生自助报名及预约系统</h5>
-    <form action="" class="districtEntry-form">
+    <form action="" class="trailingEntry-form">
       <label for="">新生姓名：</label>
       <input type="text" placeholder="请输入您的姓名">
       <label for="">性别：</label>
@@ -43,21 +43,60 @@
         <input type="file" id="file" class="file-btn">
       </p>
       <img class="preview-img" id="image" src="" alt="预览图片">
+      <label for="">居住地址</label>
+      
     </form>
   </div>
 </template>
 
 <script>
-  
+  import siteSlt from '../components/pageEntry.vue'
   import relation from '../components/pageRelation.vue'
   export default {
     name: 'relation',
     components: {
+      'site-slt': siteSlt,
       'relation-slt': relation
     }
   }
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
-
+  .trailingEntry
+    font-size 0
+    padding 0 .2rem .4rem .2rem
+    background url(../assets/images/login.jpg) no-repeat
+    background-size cover
+  .sex-btn
+    margin-bottom .4rem
+    width 100%
+    height .62rem
+    font-size .28rem
+    background-color transparent
+    & option
+      font-size .28rem
+  .site-box
+    margin-bottom .4rem
+  .trailingEntry-form
+    margin-top .4rem
+  .file-box
+    position relative
+    line-height .38rem
+    text-align center
+  .file-btn
+    position absolute
+    top 0
+    left 0
+    opacity 0
+  label
+    display inline-block
+    width 100%
+    margin-bottom .1rem
+    font-size .28rem
+    font-weight 700
+  .preview-img
+    width 100%
+    height 3.2rem
+  input[type=text]
+    background-color transparent
 </style>

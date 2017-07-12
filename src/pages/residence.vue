@@ -3,7 +3,7 @@
     <h1 class="residence-title">民族实验小学新生预约报名系统<br/>新生报名界面</h1>
     <div class="jump-box">
       <a href="#/districtEntry" class="btn jump-btn jump-btn-x">学区生报名入口</a>
-      <a href="" class="btn jump-btn jump-btn-s">随迁生报名入口</a>
+      <a href="#trailingEntry" class="btn jump-btn jump-btn-s">随迁生报名入口</a>
     </div>
   </div>
 </template>

@@ -82,10 +82,10 @@
     margin-bottom .4rem
     width 100%
     height .62rem
-    font-size 28px
+    font-size .28rem
     background-color transparent
     & option
-      font-size 14px
+      font-size .28rem
   .site-box
     margin-bottom .4rem
   .districtEntry-form
@@ -103,7 +103,7 @@
     display inline-block
     width 100%
     margin-bottom .1rem
-    font-size .24rem
+    font-size .28rem
     font-weight 700
   .preview-img
     width 100%

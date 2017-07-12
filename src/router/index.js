@@ -11,6 +11,7 @@ import studentMenu from '../pages/studentMenu.vue'
 import studentLogin from '../pages/studentLogin.vue'
 import studentRegister from '../pages/studentRegister.vue'
 import districtEntry from '../pages/districtEntry.vue'
+import trailingEntry from '../pages/trailingEntry.vue'
 import orderTime from '../pages/orderTime.vue'
 import orderNews from '../pages/orderNews.vue'
 import offerRain from '../pages/offerRain.vue'
@@ -63,6 +64,10 @@ export default new Router({
       path: '/districtEntry',
       name: 'districtEntry',
       component: districtEntry
+    },{
+      path: '/trailingEntry',
+      name: 'trailingEntry',
+      component: trailingEntry
     },{
       path: '/orderTime',
       name: 'orderTime',
