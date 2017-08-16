@@ -76,7 +76,7 @@
   .districtEntry
     font-size 0
     padding 0 .2rem .4rem .2rem
-    background url(../assets/images/login.jpg) no-repeat
+    background url(../assets/images/7.jpg) no-repeat
     background-size cover
   .sex-btn
     margin-bottom .4rem

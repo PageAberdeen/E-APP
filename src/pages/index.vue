@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="home-title">XXX预约报名平台</h1>
+    <h1 class="home-title">柳州市新生预约报名平台</h1>
     <div class="home-link-box">
       <a href="#/school" class="home-link school-in">学校入口</a>
       <a href="#/student" class="home-link student-in">新生报名入口</a>
